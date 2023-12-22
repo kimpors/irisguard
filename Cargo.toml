@@ -2,8 +2,13 @@
 name = "irisguard"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["kimpors linbetterthanwin@gmail.com"]
+license = "MIT"
+description = "Password generator"
+homepage = "https://github.com/kimpors/irisguard"
+repository = "https://github.com/kimpors/irisguard"
+keywords = ["password", "generator"]
+categoires = ["command-line-utilities"]
 
 [dependencies]
 clap = { version = "4.4.11", features = ["derive"] }
